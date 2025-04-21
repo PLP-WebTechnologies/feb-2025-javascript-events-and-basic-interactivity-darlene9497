@@ -33,6 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
         input.addEventListener('focus', () => {
             input.style.backgroundColor = 'pink';
         });
+
+        input.addEventListener('blur', () => {
+            input.style.backgroundColor = '';
+        });
     });
 
     // function to validate email format
